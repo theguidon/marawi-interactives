@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /* font-size: 100%; */
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Tiempos Text';
+    color: #FFFFFF;
+}
+
+.header{
+    height: 1024px;
+    margin: 0;
+    background-image: url(assets/bg.png), linear-gradient(to top, #000417 0%, rgba(196, 196, 196, 0) 194.29%);
+    background-blend-mode: darken;
+    text-align: center;
+    /* overflow: hidden; */
+    padding-top: 128px;
+}
+
+.header-logo{
+     margin-top: 128px;
+}
+.header-logo,
+h1,
+h3, 
+hr, 
+h5,
+h6{
+    margin: auto;
+    width: 50%;
+}
+h1{
+    font-size: 64px;
+    line-height: 77px;
+    width: 485px;
+    font-style: italic;
+    margin-top: 64px;
+    font-family: 'Tiempos Text - Bold Italic'
+}
+
+h3{
+    margin-top: 8px;
+    font-family: 'Tiempos Text - Regular';
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: normal;
+}
+
+h5,
+h6{
+    font-family: 'Chivo', sans-serif;
+}
+h5{
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 36px;
+    font-weight: lighter;
+}
+hr{
+    border-top:1px solid white;
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+h6{
+    margin-top: 136px;
+    font-size: 12px;
+line-height: 14px;
+}
+
+.scroll-triangle{
+    margin-top: 8px;
+}
+
+.main-text{
+    height: 282px;
+    z-index: 10;
+    margin-top: -282px;
+}
+.p1,
+.p2,
+.p3{
+    font-size: 16px;
+    z-index: 10;
+    width: 79%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 200%;
+    margin-top: 33px;
+    /* color: #FFFFFF; */
+
+
+}
