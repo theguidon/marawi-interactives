@@ -18,6 +18,7 @@
     text-align: center;
     /* overflow: hidden; */
     padding-top: 128px;
+    margin-bottom: 0px;
 }
 
 .header-logo{
@@ -66,7 +67,7 @@ hr{
     margin-top: 27px;
 }
 
-h6{
+.scroll-down-top{
     margin-top: 136px;
     font-size: 12px;
 line-height: 14px;
@@ -91,7 +92,28 @@ line-height: 14px;
     font-size: 16px;
     line-height: 200%;
     margin-top: 33px;
-    /* color: #FFFFFF; */
+}
 
+.the-narratives{
+    text-align: center;
+    background-image: url(assets/bg-2.png), linear-gradient(to bottom, #000417 0%, rgba(196, 196, 196, 0) 194.29%);
+    height: 1024px;
+    margin: 0;
+    background-blend-mode: darken;
+    margin-top: -34px;
+    overflow: auto;
+}
 
+.explore{
+    margin-top: 200px;
+    width: 80%;
+    text-align: center;
+}
+
+.the-narratives-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 154px;
 }
