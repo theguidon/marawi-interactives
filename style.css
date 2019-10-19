@@ -97,7 +97,7 @@ line-height: 14px;
 .the-narratives{
     text-align: center;
     background-image: url(assets/bg-2.png), linear-gradient(to bottom, #000417 0%, rgba(196, 196, 196, 0) 194.29%);
-    height: 1024px;
+    height: 1324px;
     margin: 0;
     background-blend-mode: darken;
     margin-top: -34px;
@@ -164,4 +164,61 @@ line-height: 14px;
     width: 655px;
     height: 391px;
     background-image: url(assets/mini-docu-thumbnail.png);
+}
+
+.textbox{
+    background: rgba(1, 4, 24, 0.75);
+    backdrop-filter: blur(20px);
+    position: relative;
+    overflow: auto;
+    height: 124px;
+    top: 267px;
+}
+
+.box-category,
+.box-title,
+.box-credits{
+    text-align: left;
+    margin-left: 25px;
+}
+.box-category{
+    color: #5597FB;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 20px;
+}
+
+.box-title{
+    margin-top: 6px;
+    font-size: 21px;
+line-height: 25px;
+}
+
+.box-credits{
+    margin-top: 10.54px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #AFAFAF;
+}
+
+.footer{
+    height: 450px;
+    background-color: #010418;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.gdn-horizontal
+{
+    margin-left: 87px;
+    margin-top: 101px;
+}
+
+.first-footer-sent{
+    margin-top: 48px;
+    margin-left: 87px;
+}
+.footer-content{
+    margin-left: 87px;
+    margin-top: 10px;
 }
