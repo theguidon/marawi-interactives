@@ -19,6 +19,17 @@
     /* overflow: hidden; */
     padding-top: 128px;
     margin-bottom: 0px;
+    
+}
+
+.header-logo{
+    animation-name: fadeInDown;
+    animation-duration: 9s;
+}
+
+.bounce{
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
 }
 
 .header-logo{
@@ -68,6 +79,7 @@ hr{
 }
 
 .scroll-down-top{
+    position: relative;
     margin-top: 136px;
     font-size: 12px;
 line-height: 14px;
@@ -75,12 +87,51 @@ line-height: 14px;
 
 .scroll-triangle{
     margin-top: 8px;
+    position: relative
+}
+
+.scroll-animation-div{
+    animation: fadeInDown;
+    animation-duration: 2s;
+    /* animation-delay: 8s; */
+}
+
+.scroll-down-top,
+.scroll-triangle,
+.explore{
+    -webkit-animation-name: scroll-animation;
+    -moz-animation-name: scroll-animation;
+    -o-animation-name: scroll-animation;
+    animation-name: scroll-animation;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+
+
+@keyframes scroll-animation{
+    from {top: 0px;}
+    to {top: 18px;}
 }
 
 .main-text{
     height: 282px;
     z-index: 10;
     margin-top: -282px;
+    overflow: scroll;
 }
 .p1,
 .p2,
@@ -105,6 +156,7 @@ line-height: 14px;
 }
 
 .explore{
+    position: relative;
     margin-top: 200px;
     width: 80%;
     text-align: center;
