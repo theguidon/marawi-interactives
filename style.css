@@ -3,7 +3,6 @@
     padding: 0;
     border: 0;
     outline: 0;
-    /* font-size: 100%; */
     vertical-align: baseline;
     background: transparent;
     font-family: 'Tiempos Text';
@@ -16,7 +15,6 @@
     background-image: url(assets/bg.png), linear-gradient(to top, #000417 0%, rgba(196, 196, 196, 0) 194.29%);
     background-blend-mode: darken;
     text-align: center;
-    /* overflow: hidden; */
     padding-top: 128px;
     margin-bottom: 0px;
     
@@ -82,7 +80,7 @@ hr{
     position: relative;
     margin-top: 136px;
     font-size: 12px;
-line-height: 14px;
+    line-height: 14px;
 }
 
 .scroll-triangle{
@@ -93,7 +91,6 @@ line-height: 14px;
 .scroll-animation-div{
     animation: fadeInDown;
     animation-duration: 2s;
-    /* animation-delay: 8s; */
 }
 
 .scroll-down-top,
@@ -131,7 +128,7 @@ line-height: 14px;
     height: 282px;
     z-index: 10;
     margin-top: -282px;
-    overflow: scroll;
+    overflow: visible;
 }
 .p1,
 .p2,

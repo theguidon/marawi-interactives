@@ -13,7 +13,6 @@ $(document).ready(function () {
     var item = document.getElementsByClassName("p1");
     if (isScrolledIntoView(item)){
         console.log('visible');
-        $(".p1, .p2, .p3").addClass("animated fadeInDown delay-2s")
     }
 
     $(".scroll-triangle").click(function (e) { 
@@ -22,8 +21,12 @@ $(document).ready(function () {
     });
 
     var comeFromTop = true;
+    var aboveNarratives = true;
+    var secondScrollPos = $(".scroll-down-top2").offset().top - 450;
     $(window).scroll(function (event) {
+        console.log(`secondScrollPos: ${secondScrollPos}`);
         var scroll = $(window).scrollTop();
+        console.log(`scroll: ${scroll}`);
         // Do something
         if (scroll >= 232 && comeFromTop){
             $([document.documentElement, document.body]).animate({
@@ -31,10 +34,19 @@ $(document).ready(function () {
             }, 2000);
             comeFromTop = false;
             console.log('set comeFromTop to false');
+            $(".p1, .p2, .p3").addClass("animated fadeInDown delay-2s")
 
         } else if (scroll < 232 && !comeFromTop){
             comeFromTop = true;
             console.log('set comeFromTop to true');
+        } else if (scroll >= secondScrollPos && aboveNarratives){
+            aboveNarratives = false;
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $(".the-narratives-header").offset().top - 70
+            }, 2000);
+        } else if (scroll < secondScrollPos && !aboveNarratives){
+            aboveNarratives = true;
+            console.log('aboveNarratives set to true')
         }
     });
     console.log(window.pageYOffset);
