@@ -18,7 +18,7 @@ nav{
 
 #s1{
   height: 854px;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 
 .landing{
@@ -34,7 +34,7 @@ nav{
 .fad{
   height: 854px;
   width: 100%;
-  
+
   padding-top: 380px;
 }
 
@@ -42,13 +42,13 @@ nav{
   height:160px;
 }
 
-.fad>.landing-elems>h6{
+/* .fad>.landing-elems>h6{
   font-size: 12px;
   line-height: 14px;
   text-align: center;
 
   color: #5597FB;
-}
+} */
 
 .fad>.landing-elems>h5{
   color: #FFFFFF;
@@ -70,6 +70,7 @@ nav{
   display:flex;
   flex-direction: column;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .c-elem1{
@@ -77,14 +78,13 @@ nav{
   line-height: 150%;
   text-align: left;
 
-  width: 80%;
+  width: 86%;
   height: 42px;
 
   margin: 0 0 95px 7%
 }
 
 .c-elem1>h6{
-  font-size: 14px;
   width: 100%;
 }
 
