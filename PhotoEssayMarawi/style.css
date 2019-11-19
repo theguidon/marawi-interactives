@@ -1,0 +1,401 @@
+@import url(http://assets.theguidon.com/fonts/tiempos-text-bold);
+@import url(http://assets.theguidon.com/fonts/tiempos-text-regular);
+
+html {
+    scroll-behavior: smooth;
+    background-color: #E5E5E5;
+  }
+
+/* sidebar */
+.side-nav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #1C4480;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition:0.5s;
+  }
+
+  .open-slide i{
+    color: white;
+    margin-right: 20px;
+  }
+
+  .side-nav p{
+    padding:10px 10px 20px 30px;
+    font-size: 18px;
+    font-family: 'Tiempos Text', sans-serif;
+    font-weight: bold;
+    color:#FFFDF9;
+  }
+  
+  .side-nav a{
+    padding:10px 10px 10px 30px;
+    text-decoration:none;
+    font-size:16px;
+    color:#FFFDF9;
+    display:block;
+    transition:0.3s;
+    font-family: 'Tiempos Text', sans-serif;
+  }
+
+  .side-nav img{
+      padding: 200px 10px 10px 30px;
+  }
+  
+  .side-nav a:hover{
+    color:#fff;
+    opacity: 0.8;
+  }
+  
+  .side-nav .btn-close{
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left:50px;
+  }
+/* navbar */
+
+.nav-link{
+    color: white;
+    font-family: 'Chivo', sans-serif;
+}
+
+.navbar p{
+    color: white;
+    font-family: 'Chivo', sans-serif;
+}
+
+.divider-1{
+    border-left: 1px solid white;
+}
+
+.divider-2{
+    border-left: 1px solid rgba(246, 246, 246, 0.3);
+}
+
+/* i{
+    border: solid;
+    border-color: white;
+    border-radius: 80px;
+    padding: 0.5em 0.6em;
+} */
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(assets/bg.jpg), linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 184.37%);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.masthead h5{
+    color: #5597FB;
+    font-size: 12px;
+    font-family: 'Tiempos Text';
+}
+.masthead h1{
+    color: #1C4480;
+    font-family: 'Tiempos Text';
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.masthead h3{
+    color: #3F3F3F;
+    font-size: 18px;
+    font-family: 'Tiempos Text';
+    margin-top: 20px;
+}
+
+.masthead h2{
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    color: #3F3F3F;
+    margin-top: 60px;
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.text{
+    font-family: 'Tiempos Text';
+    font-size: 16px;
+    line-height: 180%;
+    margin: auto;
+}
+
+.text h6{
+    font-size: 14px;
+    font-family: 'Chivo', sans-serif;
+    color: #B4B4B4;
+    margin-bottom: 20px;
+}
+.portrait{
+    margin: auto;
+    height: 650px;
+    width: auto;
+    padding-left: 200px;
+}
+
+.landscape{
+    margin: auto;
+    height: auto;
+    width: 95%;
+    padding-left: 50px;
+}
+
+@keyframes scroll-animation{
+    from {top: 0px;}
+    to {top: 18px;}
+}
+.scroll-animation-div{
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+
+.scroll-down-top{
+    position: relative;
+    margin-top: 50px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Chivo', sans-serif;
+    color: #1C4480;
+}
+
+.scroll-triangle{
+    margin-top: 8px;
+    position: relative
+}
+
+.scroll-down-top,
+.scroll-triangle
+{ 
+    -webkit-animation-name: scroll-animation;
+    -moz-animation-name: scroll-animation;
+    -o-animation-name: scroll-animation;
+    animation-name: scroll-animation;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.quote{
+   margin-top: 100px;
+}
+
+.quote h1{
+    text-align: center;
+    color: #1C4480;
+    line-height: 50px;
+    font-style: italic;
+    font-family: 'Tiempos Text', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.the-narratives{
+    text-align: center;
+    background-image: url(assets/bg-2.png);
+    height: 1324px;
+    margin: 0;
+    background: #F6F6F6;
+    margin-top: 300px;
+    overflow: auto;
+}
+
+.explore{
+    position: relative;
+    margin-top: 200px;
+    width: 80%;
+    text-align: center;
+}
+
+.the-narratives-header{
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    background: #1C4480;
+    height: 35px;
+    width: 380px;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: bold;
+    border: 1px solid #1C4480;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.flex-container-1{
+    display: flex;
+    width: 1112px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.kf-box{
+    background-image: url(assets/keepin-faith-thumbnail.png);
+}
+
+.kf-box,
+.photoessay-box{
+    width: 313px;
+    height:391px;
+}
+
+.bn-box{
+    width: 426px;
+    height:391px;
+    background-image: url(assets/marawi-rehab-thumbnail.png);
+
+}
+
+.photoessay-box{
+    background-image: url(assets/photoessay\ -thumbnail.png);
+}
+
+.flex-container-2{
+    display: flex;
+    width: 1112px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+.wtd-box{
+    width: 427px;
+    height: 391px;
+    background-image: url(assets/wtd-thumbnail.png);
+}
+.docu-box{
+    width: 655px;
+    height: 391px;
+    background-image: url(assets/mini-docu-thumbnail.png);
+}
+
+.textbox{
+    background: rgba(28, 68, 128, 0.75);;
+    backdrop-filter: blur(20px);
+    position: relative;
+    overflow: auto;
+    height: 124px;
+    top: 267px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.textbox:hover{
+    height: 391px;
+    top: 0px;
+    transition-duration: 0.7s;
+}
+
+.box-category,
+.box-title,
+.box-credits{
+    text-align: left;
+    margin-left: 25px;
+}
+.box-category{
+    color: #81B1FA;;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 20px;
+}
+
+.box-title{
+    margin-top: 6px;
+    font-size: 21px;
+line-height: 25px;
+color: white;
+}
+
+.box-credits{
+    margin-top: 10.54px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F6F6F6;;
+}
+
+.footer{
+    height: 450px;
+    background-color: #1C4480;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.gdn-horizontal
+{
+    margin-left: 87px;
+    margin-top: 101px;
+    
+}
+
+.first-footer-sent{
+    margin-top: 48px;
+    margin-left: 87px;
+    color:white;
+}
+.footer-content{
+    margin-left: 87px;
+    margin-top: 10px;
+    color:white;
+}
+
+@media only screen and (max-width: 1200px) {
+    br {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .image-1 {
+      height: 100%;
+      width: 100vw;
+      position: relative;
+      left: -100px;
+    }
+
+    .row{
+        padding: 0;
+    }
+
+    .portrait{
+        padding-left: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .landscape{
+        padding-left: 0;
+        height: 50vh;
+        width: 100vw;
+    }
+  }
