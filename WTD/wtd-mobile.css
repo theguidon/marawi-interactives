@@ -1,3 +1,6 @@
+@import url(http://assets.theguidon.com/fonts/tiempos-text-bold);
+@import url(http://assets.theguidon.com/fonts/tiempos-text-regular);
+
 @media only screen and (max-width: 425px) {
 
   :root{--font-increase: 3px;}
