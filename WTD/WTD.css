@@ -173,6 +173,25 @@ nav{
   margin: 50px 0% 100px;
 }
 
+.ql{
+  font-size: 27px;
+
+  transform: translate(-10%,30px);
+}
+
+.qr{
+  font-size: 27px;
+
+  transform: translate(101%,-30px);
+}
+
+.qlb{
+  color: white;
+}
+
+.qrb{
+  color: white;
+}
 #c-img1{
   margin: 100px 0 100px;
   transform: translate(-10%,0);
@@ -246,6 +265,11 @@ nav{
 
   display: flex;
   flex-direction: column;
+}
+
+.s3-mobile{
+  height: 0px;
+  overflow: hidden;
 }
 
 .s3Head{
