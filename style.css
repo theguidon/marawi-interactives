@@ -10,7 +10,7 @@
 }
 
 .header{
-    height: 1024px;
+   
     margin: 0;
     /* background-image: url(assets/bg.png),          linear-gradient(to top, #000417 0%, rgba(196, 196, 196, 0) 250.29%); */
     background-image: url(assets/landing-bg-new.jpg), linear-gradient(to top, rgba(252, 254, 255, 1) 0%, rgba(252, 254, 255, 0) 60%);
@@ -41,8 +41,8 @@ h3,
 hr, 
 h5,
 h6{
-    margin: auto;
-    width: 50%;
+        margin: auto;
+        width: 50%;
 }
 h1{
     font-size: 64px;
