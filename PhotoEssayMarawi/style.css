@@ -144,10 +144,10 @@ html {
     margin-bottom: 20px;
 }
 .portrait{
-    margin: auto;
     height: 650px;
     width: auto;
-    padding-left: 200px;
+    display: block;
+    margin: auto;
 }
 
 .landscape{
@@ -376,13 +376,6 @@ color: white;
   }
 
 @media only screen and (max-width: 600px) {
-    .image-1 {
-      height: 100%;
-      width: 100vw;
-      position: relative;
-      left: -100px;
-    }
-
     .row{
         padding: 0;
     }
