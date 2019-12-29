@@ -1,0 +1,793 @@
+@import url(http://assets.theguidon.com/fonts/tiempos-text-bold);
+@import url(http://assets.theguidon.com/fonts/tiempos-text-regular);
+
+*{
+  font-family: Tiempos Text;
+}
+
+html {
+min-width: 550px;
+position: relative;
+}
+
+body{
+  text-align: center;
+}
+
+nav{
+  background-color: #1C4480;
+  height: 64px;
+}
+
+#s1{
+  height: 854px;
+  margin-bottom: 10px;
+}
+
+.landing{
+  height: 854px;
+  width: 100%;
+  text-align: center;
+
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image: url(assets/headline-img.png);
+
+  position: relative;
+  z-index: 0;
+}
+
+.blur{
+  height: 854px;
+  width: 100%;
+
+  background-color: black;
+  opacity: 0.3;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+.fad{
+  height: 854px;
+  width: 100%;
+
+  padding-top: 380px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.landing-elems{
+  height:160px;
+}
+
+/* .fad>.landing-elems>h6{
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #5597FB;
+} */
+
+.fad>.landing-elems>h5{
+  color: #FFFFFF;
+}
+
+#h61{
+  transform: translate(0,-20px);
+}
+
+#h6-2{
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+
+  transform: translate(0,20px);
+}
+
+/* ================================================================== */
+
+#s2{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.c-elem1{
+  font-size: 14px;
+  line-height: 150%;
+  text-align: left;
+
+  width: 86%;
+  height: 42px;
+
+  margin: 0 0 95px 7%
+}
+
+.c-elem1>h6{
+  width: 100%;
+}
+
+.c-elem2{
+  margin-bottom: 55px;
+}
+
+#h61{
+  margin-bottom: 4.21px;
+
+  font-size: 11px;
+  font-weight: 1000;
+  line-height: 14px;
+  text-align: center;
+
+  color: #5597FB;
+}
+
+.c-elem2>span>h1,.fad>.landing-elems>h1{
+  margin-bottom: 8px;
+  color: #1C4480;
+  font-weight: 1000;
+  font-size: 48px;
+}
+
+.fad>.landing-elems>h1{
+  color: #FFFFFF;
+}
+
+.c-elem2>span>h5,.landing-elems>h5{
+  margin-bottom: 48px;
+  font-size: 18px;
+}
+
+.c-elem3{
+  width: 57.3%;
+  margin-left: 21%
+}
+
+.c-elem3>h4{
+
+  font-size: 22px;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.c-elem3>h4>#blue{
+  background-color: #1C4480;
+  color: white;
+  padding: 2px 5px;
+}
+
+.c-elem3>h4>#uline{
+  /* text-decoration: underline;
+  text-decoration-color: #1C4480; */
+  width: 30px;
+  height: 22px;
+  padding: 3px 5px 1.8px;
+  border-bottom: 1px solid #1C4480;
+}
+
+.c-elem3>h4>#uline:hover{
+  background-color: #1C4480;
+  color: white;
+}
+
+.c-elem3>h4>#heading>div{
+  /* padding: 0 40%; */
+  margin: 5px 0% 0px;
+  border-style: solid none;
+  border-width: 0.5px;
+  text-align: center;
+}
+
+.c-elem3>h4>#quote{
+  font-size: 36px;
+  padding: 0 30%;
+  margin: 50px 0% 100px;
+}
+
+#quote>h2{
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.ql{
+  font-size: 27px;
+
+  transform: translate(-10%,30px);
+}
+
+.qr{
+  font-size: 27px;
+
+  transform: translate(101%,-30px);
+}
+
+.qlb{
+  color: white;
+}
+
+.qrb{
+  color: white;
+}
+#c-img1{
+  margin: 100px 0 100px;
+  transform: translate(-10%,0);
+  width: 130%;
+  /* width: 1029px; */
+}
+
+#c-img1>img{
+  width: 100%;
+}
+
+#c-img1>#ffe{
+  margin-top: 14px;
+  text-align: left;
+}
+
+#c-img2{
+  margin: 90px 0 55px;
+  transform: translate(-10%,0);
+  width: 130%;
+  /* width: 1029px; */
+}
+
+#c-img2>img{
+  width: 100%;
+  margin-bottom: 12.4px;
+}
+
+#c-img3{
+  margin: 90px 0 55px;
+  transform: translate(-10%,0);
+  width: 130%;
+  /* width: 1029px; */
+}
+
+#c-img3>img{
+  width: 100%;
+  margin-bottom: 13.17px;
+}
+
+#c-img4{
+  margin: 90px 0 55px;
+  transform: translate(-10%,0);
+  width: 130%;
+  /* width: 1029px; */
+}
+
+#c-img4>img{
+  width: 100%;
+  margin-bottom: 12.17px;
+}
+
+#c-img6{
+  margin: 90px 0 90px;
+  transform: translate(-10%,0);
+  width: 130%;
+  /* width: 1029px; */
+}
+
+#c-img6>img{
+  width: 100%;
+  margin-bottom: 18.17px;
+}
+
+/* ======================================================================= */
+
+#s3{
+  margin-top: 100px;
+  background: #F6F6F6;
+  height: 1092px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.s3-mobile{
+  height: 0px;
+  overflow: hidden;
+}
+
+.s3Head{
+  width: 10%;
+  margin-left: 38%;
+  margin-top: 80px;
+
+}
+
+.s3Head>img{
+  width: 300px;
+  height: 30px;
+}
+
+.scroll-triangle{
+    margin-top: 8px;
+    position: relative
+}
+
+.scroll-animation-div{
+    animation: fadInDown;
+    animation-duration: 2s;
+}
+
+.scroll-down-top,
+.scroll-triangle,
+.explore{
+    -webkit-animation-name: scroll-animation;
+    -moz-animation-name: scroll-animation;
+    -o-animation-name: scroll-animation;
+    animation-name: scroll-animation;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+
+
+@keyframes scroll-animation{
+    from {top: 0px;}
+    to {top: 18px;}
+}
+
+.main-text{
+    height: 282px;
+    z-index: 10;
+    margin-top: -282px;
+    overflow: visible;
+}
+.p1,
+.p2,
+.p3{
+    font-size: 16px;
+    z-index: 10;
+    width: 79%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 200%;
+    margin-top: 33px;
+}
+
+.the-narratives{
+    text-align: center;
+    height: 1324px;
+    margin: 0;
+    background-blend-mode: darken;
+    margin-top: -9px;
+    overflow: auto;
+    color: white;
+}
+
+.explore{
+    position: relative;
+    margin-top: 200px;
+    width: 80%;
+    text-align: center;
+}
+
+.flex-container-1{
+    display: flex;
+    width: 1112px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.kf-box{
+    background-image: url(assets/keepin-faith-thumbnail.png);
+}
+
+.kf-box,
+.photoessay-box{
+    width: 313px;
+    height:391px;
+}
+
+.bn-box{
+    width: 426px;
+    height:391px;
+    background-image: url(assets/marawi-rehab-thumbnail.png);
+
+}
+
+.photoessay-box{
+    background-image: url(assets/photoessay\ -thumbnail.png);
+}
+
+.flex-container-2{
+    display: flex;
+    width: 1112px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+.wtd-box{
+    width: 427px;
+    height: 391px;
+    background-image: url(assets/wtd-thumbnail.png);
+}
+.docu-box{
+    width: 655px;
+    height: 391px;
+    background-image: url(assets/mini-docu-thumbnail.png);
+}
+
+.textbox{
+    background: rgba(28, 68, 128, 0.75);
+    backdrop-filter: blur(20px);
+    position: relative;
+    overflow: auto;
+    height: 124px;
+    top: 267px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.textbox:hover{
+    height: 391px;
+    top: 0px;
+    transition-duration: 0.7s;
+}
+
+.box-category,
+.box-title,
+.box-credits{
+    text-align: left;
+    margin-left: 25px;
+}
+.box-category{
+    color: #5597FB;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 20px;
+}
+
+.box-title{
+    margin-top: 6px;
+    font-size: 21px;
+line-height: 25px;
+}
+
+.box-credits{
+    margin-top: 10.54px;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+}
+
+.footer{
+    height: 360px;
+    background-color: #1C4480;
+    font-size: 14px;
+    line-height: 100%;
+    color: white;
+    text-align: left;
+
+    padding-bottom: 441px;
+}
+
+.gdn-horizontal
+{
+    margin-left: 87px;
+    margin-top: 101px;
+}
+
+.first-footer-sent{
+    margin-top: 48px;
+    margin-left: 87px;
+}
+
+.footer-content,.footer-content-spec{
+    margin-left: 87px;
+    margin-top: 10px;
+}
+
+/* ==================================MOBILE================================ */
+
+@media only screen and (max-width: 425px) {
+
+  :root{--font-increase: 3px;}
+
+#s3{
+  height: 0px !important;
+  margin-top: 50px !important;
+  overflow: hidden;
+}
+
+.s3-mobile{
+  height: 758px !important;
+  background-image: url(assets/marawi-rehab-thumbnail.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#arrow{
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+#next-page{
+  margin-top: 100px;
+  padding: 30px 10% 30px;
+
+  width: 80% !important;
+
+  margin: 350px 0 280px 10% !important;
+
+  border: none;
+
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+
+  color: white;
+  background-color: #1C4480;
+  display: flex;
+  flex-direction: row;
+}
+
+#next-page>span{
+  padding-left: 0;
+  margin-left: 10px;
+  transform: translate(20px,15px);
+}
+
+.ql{
+  color: white !important;
+}
+
+.qr{
+  color: white !important;
+}
+
+.qlb{
+  color: black !important;
+}
+
+.qrb{
+  color: black !important;
+}
+}
+
+@media only screen and (min-width:425px) and (max-width: 549px){
+#s3{
+  height: 0px !important;
+  margin-top: 50px !important;
+  overflow: hidden;
+}
+
+.s3-mobile{
+  height: 758px !important;
+  background-image: url(assets/marawi-rehab-thumbnail.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.s3-mobile>span{
+  margin-left: 10px;
+}
+
+#next-page{
+  margin-top: 100px;
+  padding: 0 10% 9px 10%;
+  width: 80% !important;
+  height: 100px;
+
+  margin: 300px 0 0 10%;
+
+  border: none;
+
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  background-color: #1C4480;
+}
+
+#next-page>span{
+  padding-left: 0;
+  margin-left: 10px;
+  transform: translate(20px,15px);
+}
+
+#next-page:active{
+  outline:none;
+}
+}
+
+@media only screen and (min-width:550px) and (max-width: 582px){
+#s3{
+  height: 0px !important;
+  margin-top: 50px !important;
+  overflow: hidden;
+}
+
+.s3-mobile{
+  height: 758px !important;
+  background-image: url(assets/marawi-rehab-thumbnail.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.s3-mobile>span{
+  margin-left: 10px;
+}
+
+#next-page{
+  margin-top: 100px;
+  padding: 0 55px 9px 55px;
+  width: 440px !important;
+  height: 100px;
+
+  margin: 300px 10% 0 10%;
+
+  border: none;
+
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  background-color: #1C4480;
+}
+
+#next-page>span{
+  padding-left: 0;
+  margin-left: 10px;
+  transform: translate(20px,15px);
+}
+
+#next-page:focus{
+  outline:none;
+}
+}
+
+@media only screen and (min-width:582px) and (max-width: 660px){
+#s3{
+  height: 0px !important;
+  margin-top: 50px !important;
+  overflow: hidden;
+}
+
+.s3-mobile{
+  height: 758px !important;
+  background-image: url(assets/marawi-rehab-thumbnail.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.s3-mobile>span{
+  margin-left: 10px;
+}
+
+#next-page{
+  margin-top: 100px;
+  padding: 0 55px 9px 55px;
+  width: 440px !important;
+  height: 100px;
+
+  margin: 300px 5% 0 15%;
+
+  transform: translate(4%,0);
+
+  border: none;
+
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  background-color: #1C4480;
+}
+
+#next-page>span{
+  padding-left: 0;
+  margin-left: 10px;
+  transform: translate(20px,15px);
+}
+
+#next-page:focus{
+  outline:none;
+}
+}
+
+@media only screen and (min-width:660px) and (max-width: 782px){
+#s3{
+  height: 0px !important;
+  margin-top: 50px !important;
+  overflow: hidden;
+}
+
+.s3-mobile{
+  height: 758px !important;
+  background-image: url(assets/marawi-rehab-thumbnail.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.s3-mobile>span{
+  margin-left: 10px;
+}
+
+#next-page{
+  margin-top: 100px;
+  padding: 0 55px 9px 55px;
+  width: 440px !important;
+  height: 100px;
+
+  margin: 300px 5% 0 15%;
+
+  transform: translate(15%,0);
+
+  border: none;
+
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  background-color: #1C4480;
+}
+
+#next-page>span{
+  padding-left: 0;
+  margin-left: 10px;
+  transform: translate(20px,15px);
+}
+
+#next-page:focus{
+  outline:none;
+}
+}
